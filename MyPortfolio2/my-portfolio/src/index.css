@@ -1,0 +1,168 @@
+
+
+/* Smooth scrolling for navbar links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* General font and colors */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:black;
+  color: #212529;
+}
+
+/* Hero Section */
+header {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  background-image: url('/_MG_1713.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: 20px;
+  color: white;
+}
+header h1 {
+  font-size: 3rem;
+}
+header p {
+  font-size: 1.25rem;
+}
+
+/* Section titles */
+section h2 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+section h2::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: #0d6efd;
+  display: block;
+  margin: 0.5rem auto 0 auto;
+  border-radius: 2px;
+}
+
+/* Cards for projects */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Skills grid */
+#skills .col-md-3 {
+  padding: 1rem;
+  font-weight: 500;
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  margin: 5px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+#skills .col-md-3:hover {
+  background: #0d6efd;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+/* Contact form */
+form .form-control {
+  border-radius: 8px;
+}
+form .btn-primary {
+  background: #0d6efd;
+  border: none;
+  transition: background 0.3s ease;
+}
+form .btn-primary:hover {
+  background: #0b5ed7;
+}
+
+/* Footer */
+footer {
+  background: #212529;
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: #0d6efd;
+}
+
+:root {
+  --accent: #0d6efd;
+  --muted: #6c757d;
+}
+
+.contact-card {
+  max-width: 900px;
+  width: 100%;
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(10, 20, 40, 0.08);
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.left-panel {
+  background: linear-gradient(135deg, rgba(13, 110, 253, 0.12), rgba(13, 110, 253, 0.03));
+  padding: 2rem;
+  min-height: 220px;
+}
+
+.logo-circle {
+  width: 68px;
+  height: 68px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.18);
+}
+
+.contact-list .item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.08);
+}
+
+.icon-wrap {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: rgba(13, 110, 253, 0.08);
+  color: var(--accent);
+  font-size: 18px;
+}
+
+.call-actions .btn {
+  min-width: 140px;
+}
+
+@media (max-width: 768px) {
+  .left-panel {
+    text-align: center;
+  }
+  .contact-card .row > * {
+    padding: 1.25rem;
+  }
+}
+
