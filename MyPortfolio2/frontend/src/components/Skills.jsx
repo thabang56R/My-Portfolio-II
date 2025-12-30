@@ -19,7 +19,7 @@ const Skills = () => {
           <div className="col-md-3 col-6 mb-3">Docker and Kubernates</div>
           <div className="col-md-3 col-6 mb-3">Ansible & Terraform</div>
           <div className="col-md-3 col-6 mb-3">Puppet,Chef,Linux Fundamentals and other Devops Tools</div>
-          <div className="col-md-3 col-6 mb-3">Agentic AI using Langchain , LangGraph, Crew AI, Autogen , LLM Orchestration , Phi Data etc</div>
+          <div className="col-md-3 col-6 mb-3">Agentic AI and Automation</div>
         </div>
       </div>
     </section>

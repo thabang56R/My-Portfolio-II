@@ -13,7 +13,7 @@ const Contact = () => {
             <div className="logo-circle">TR</div>
             <div>
               <h2 className="mb-0">Thabang Rakeng</h2>
-              <p className="lead mb-0">Agentic AI Engineer , Full-Stack Web Developer , AWS and Devops Engineer with Gen AI</p>
+              <p className="lead mb-0">Agentic AI Engineer , Full-Stack Development , AWS and Devops Engineer with Gen AI</p>
             </div>
           </div>
 
