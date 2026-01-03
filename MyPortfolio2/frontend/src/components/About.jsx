@@ -7,11 +7,11 @@ const About = () => {
       <div className="container">
         <h2 className="text-center mb-4">About Me</h2>
         <p className="text-center">
-          I’m a Computer Science and Mathematics graduate with a strong foundation in
-           full-stack MERN development. I enjoys building clean, efficient applications 
-           from front end to backend. I have practical exposure to agentic AI as 
-           well as DevOps basics, and I’m passionate about learning, automation, 
-           and solving real-world problems using AI and Programming<p/>
+          I’m a Computer Science and Mathematics graduate with a strong foundation in 
+          software development , focuses more on full-stack MERN development. 
+          I enjoys building clean, efficient applications from front end to backend. 
+          I have practical exposure to agentic AI as  well as DevOps basics, 
+          and I’m passionate about learning, automation,and solving real-world problems using AI and Programming<p/>
         <p>
           
            My work focuses on integrating AI agents with tools like Langchain,RAG , 
