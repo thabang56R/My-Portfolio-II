@@ -33,7 +33,7 @@ const Projects = () => {
                 <h5 className="card-title">Eatzer Delivery App</h5>
                 <p className="card-text">A full-stack food delivery application built using the MERN stack that allows users to browse restaurants, place orders, and track deliveries in real time</p>
                 <a href="https://github.com/thabang56R/Eatzer-Delivery-App" className="btn btn-outline-primary btn-sm">GitHub</a>
-                <a href="e-a-t-z-e-r-d-e-l-i-v-e-r-y-thabangs-projects-c8541678.vercel.app" className="btn btn-outline-success btn-sm ms-2">Live</a>
+                <a href="https://e-a-t-z-e-r-d-e-l-i-v-e-r-y-ksvv4tl1h.vercel.app/" className="btn btn-outline-success btn-sm ms-2">Live</a>
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ const Projects = () => {
               <div className="card-body">
                 <h5 className="card-title">Ai Home Control Simulator</h5>
                 <p className="card-text">A smart home simulation platform powered by AI agents that control and monitor virtual household devices in real time. It uses fullstack architecture, sensor-like event streams, and intelligent decision-making models to automate lighting, security, energy usage, and home routines — providing a realistic environment for testing IoT logic, agent behaviors, and automation workflows</p>
-                <a href="https://github.com/thabang56R/Eatzer-Delivery-App" className="btn btn-outline-primary btn-sm">GitHub</a>
+                <a href="#" className="btn btn-outline-primary btn-sm">GitHub</a>
                 <a href="#" className="btn btn-outline-success btn-sm ms-2">Live</a>
               </div>
             </div>
@@ -137,7 +137,7 @@ const Projects = () => {
               <div className="card-body">
                 <h5 className="card-title">Ai Workflow Automation HUB</h5>
                 <p className="card-text"> A powerful multi-agent automation platform that orchestrates complex business workflows using an AI-driven engine, drag-and-drop visual editor, and pluggable connectors. It coordinates agents for data processing, task execution, and system integrations while providing real-time monitoring, versioned workflows, and intelligent optimization — enabling teams to automate entire operations with speed and precision</p>
-                <a href="https://github.com/thabang56R/Eatzer-Delivery-App" className="btn btn-outline-primary btn-sm">GitHub</a>
+                <a href="#" className="btn btn-outline-primary btn-sm">GitHub</a>
                 <a href="#" className="btn btn-outline-success btn-sm ms-2">Live</a>
               </div>
             </div>
