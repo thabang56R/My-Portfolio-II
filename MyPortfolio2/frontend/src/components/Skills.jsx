@@ -10,6 +10,7 @@ const Skills = () => {
           <div className="col-md-3 col-6 mb-3">HTML / CSS</div>
           <div className="col-md-3 col-6 mb-3">JavaScript</div>
           <div className="col-md-3 col-6 mb-3">Python</div>
+          <div className="col-md-3 col-6 mb-3">C# / .NET CORE</div>
           <div className="col-md-3 col-6 mb-3">React.js</div>
           <div className="col-md-3 col-6 mb-3">React Native</div>
           <div className="col-md-3 col-6 mb-3">Node.js</div>
@@ -20,6 +21,7 @@ const Skills = () => {
           <div className="col-md-3 col-6 mb-3">Ansible & Terraform</div>
           <div className="col-md-3 col-6 mb-3">Puppet,Chef,Linux Fundamentals and other Devops Tools</div>
           <div className="col-md-3 col-6 mb-3">Agentic AI and Automation</div>
+          <div className="col-md-3 col-6 mb-3">Ai and ML</div>
         </div>
       </div>
     </section>

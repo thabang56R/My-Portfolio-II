@@ -7,6 +7,52 @@ const Projects = () => {
       <div className="container">
         <h2 className="text-light mb-4">Projects</h2>
         <div className="row">
+
+          <div className="col-md-4 mb-3">
+            <div className="card shadow-sm">
+              <img
+                src="/Flaviction.png"
+                className="card-img-top"
+                alt="Flaviction Daycare Center"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Flaviction Daycare Center</h5>
+                <p className="card-text">A modern web portal designed to streamline communication and management for daycare centers, helping parents and staff stay connected through announcements, updates, and essential information.</p>
+                <a href="https://github.com/thabang56R/Flaviction-Daycare-Center-Portal" className="btn btn-outline-primary btn-sm">GitHub</a>
+                <a href="https://flaviction-daycare-center-portal.vercel.app/" className="btn btn-outline-success btn-sm ms-2">Live</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-3">
+            <div className="card shadow-sm">
+              <img
+                src="/resume.jfif"
+                className="card-img-top"
+                alt="AI-Powered Resume Screener Image"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Ai-Powered resume screaner Using fullstack + Agent AI</h5>
+                <p className="card-text">A smart recruitment automation system that uses advanced NLP, embeddings, and LLM agents to automatically parse resumes, extract candidate skills, compare them to job requirements, and generate ranked shortlists. It drastically reduces manual review time while improving accuracy and consistency in hiring decisions.</p>
+                <a href="https://github.com/thabang56R/AI-Powered-Resume-Screaner" className="btn btn-outline-primary btn-sm">GitHub</a>
+                <a href="#" className="btn btn-outline-success btn-sm ms-2">Live</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-3">
+            <div className="card shadow-sm">
+              <img
+                src="/lms.jfif"
+                className="card-img-top"
+                alt="Ai-Powered LMS Image"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Ai-powered LMS</h5>
+                <p className="card-text">A next-generation LMS that uses AI agents, personalization engines, and intelligent analytics to deliver adaptive learning experiences. It automates course recommendations, tracks learner progress, generates dynamic assessments, and provides real-time insights for instructors — creating a fully personalized, data-driven education ecosystem.</p>
+                <a href="https://github.com/thabang56R/AI-Powered-Learning-Management-System" className="btn btn-outline-primary btn-sm">GitHub</a>
+                <a href="#" className="btn btn-outline-success btn-sm ms-2">Live</a>
+              </div>
+            </div>
+          </div>
           <div className="col-md-4 mb-3">
             <div className="card shadow-sm">
               <img
@@ -160,7 +206,7 @@ const Projects = () => {
           <div className="col-md-4 mb-3">
             <div className="card shadow-sm">
               <img
-                src="#"
+                src="voice flow.png"
                 className="card-img-top"
                 alt="Capaciti Training Project"
               />
