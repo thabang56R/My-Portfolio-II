@@ -142,7 +142,51 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          
+          <div className="col-md-4 mb-3">
+            <div className="card shadow-sm">
+              <img
+                src="#"
+                className="card-img-top"
+                alt="Project"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Ultimate Online Voting System</h5>
+                <p className="card-text">🗳️ An enterprise-style online voting platform built with the MERN stack and an ML-powered fraud detection microservice.</p>
+                <a href="https://github.com/thabang56R/The-Ultimate-Online-Voting-System" className="btn btn-outline-primary btn-sm">GitHub</a>
+                <a href="https://the-ultimate-online-voting-system.vercel.app/" className="btn btn-outline-success btn-sm ms-2">Live</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-3">
+            <div className="card shadow-sm">
+              <img
+                src="#"
+                className="card-img-top"
+                alt="Capaciti Training Project"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Capaciti Week 1 -  Ai Budget Assistant Chat bot Project</h5>
+                <p className="card-text">We designed and developed an AI Budget Assistant, a conversational agent built on Voiceflow to help users track personal spending, set financial goals, and receive personalized savings advice. The assistant leverages Large Language Models (LLMs) to transform unstructured user input—like "I spent R150 on coffee this week"—into structured financial data.</p>
+                <a href="https://github.com/Data-Mafias/AI-Budget-Assistant" className="btn btn-outline-primary btn-sm">GitHub</a>
+                <a href="https://creator.voiceflow.com/share/69e8790cdc8c7f958d1deaea/development" className="btn btn-outline-success btn-sm ms-2">Live</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-3">
+            <div className="card shadow-sm">
+              <img
+                src="/content creation.png"
+                className="card-img-top"
+                alt="Project"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Capaciti Week 2 - Ai Content Creation Tool Project</h5>
+                <p className="card-text">An all-in-one generative AI suite built with Lovable Ai. This tool empowers creators to transform ideas into high-quality text, images, video, and code through a single, seamless interface.</p>
+                <a href="https://github.com/thabang56R/AI-content-generator" className="btn btn-outline-primary btn-sm">GitHub</a>
+                <a href="https://creatio-engine-hub.lovable.app" className="btn btn-outline-success btn-sm ms-2">Live</a>
+              </div>
+            </div>
+          </div>
           
         </div>
       </div>
