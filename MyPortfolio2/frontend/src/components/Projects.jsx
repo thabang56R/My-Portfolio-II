@@ -233,6 +233,40 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+          
+          <div className="col-md-4 mb-3">
+            <div className="card shadow-sm">
+              <img
+                src="/week3.png"
+                className="card-img-top"
+                alt="Project"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Capaciti Week 3 - Ai Sentiment Analysis Project</h5>
+                <p className="card-text">Built an AI-powered sentiment analysis dashboard using lovable . It analyze customer feedback and generate real-time business insights through interactive visualizations and analytics tools.</p>
+                <a href="https://github.com/thabang56R/sentiment-sparkle-00" className="btn btn-outline-primary btn-sm">GitHub</a>
+                <a href="https://sentiment-sparkle-00.lovable.app/" className="btn btn-outline-success btn-sm ms-2">Live</a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div className="col-md-4 mb-3">
+            <div className="card shadow-sm">
+              <img
+                src="/week4.png"
+                className="card-img-top"
+                alt="Project"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Capaciti Week 4 - Ai Solution Development Project</h5>
+                <p className="card-text">An Ai powered solution that integrates intelligent automation, data processing, and user interaction features to solve real-world business problems. </p>
+                <a href="https://github.com/thabang56R/feel-bright" className="btn btn-outline-primary btn-sm">GitHub</a>
+                <a href="https://feel-bright.lovable.app/" className="btn btn-outline-success btn-sm ms-2">Live</a>
+              </div>
+            </div>
+          </div>
           
         </div>
       </div>
